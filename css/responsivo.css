@@ -1,13 +1,56 @@
 
 
 
-
-
-
-
-@media screen and (max-width:1005px){
+@media screen and (max-width:905px){
   
     .menu{
+        display: none;
+    }
+
+    .logo{
+        
+        opacity: 1;
+    }
+
+    body, .logo{
+        text-align: center;
+        overflow-x: hidden;
+    }
+    
+.img-headline{
+    flex: 100%;
+}
+
+#fnd{
+    width: 120%;
+    margin-top: 2rem;
+}
+
+.servicos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: inline-block;
+    width: 17rem;
+    padding: 20px;
+}
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: -4rem;
+    }
+
+    section h2{
+        font-size: 20px;
+    }
+        
+    .whts{
         display: none;
     }
 
